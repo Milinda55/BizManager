@@ -6,3 +6,18 @@
 body {
     font-family: "Ubuntu", sans-serif;
 }
+
+#tbl-customers {
+    td:first-child {
+        width: 150px;
+    }
+
+
+    .profile-picture {
+        width: clamp(100px, 30vw, 150px);
+    }
+}
+
+header {
+
+}
