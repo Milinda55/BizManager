@@ -41,9 +41,10 @@ Clone the repository to your local machine:
 1. Open the `crud app-backend` folder in **IntelliJ IDEA**.
 2. Configure the database connection in `application.properties`:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/bizmanager
-   spring.datasource.username=root
-   spring.datasource.password=psql
+   spring.datasource.url=${DB_URL}
+   spring.datasource.username=${DB_USERNAME}
+   spring.datasource.password=${DB_PASSWORD}
+
 3. Run the Spring Boot application:
 
 ```bash
